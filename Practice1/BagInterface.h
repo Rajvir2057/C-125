@@ -12,7 +12,7 @@ class BagInterface{
     // the integer number.
     //const means read only, and avoids all objects from manipulating data.
 
-    virtual bool isEmpty() const = 0;
+    virtual bool isEmpty() const = 0; // 0 determines the abstract and will be implimented in the childm class
     //will see if  the bag is empty.
 
     virtual bool add(const ItemType& someItem) = 0;

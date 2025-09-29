@@ -24,9 +24,5 @@ class ArrayBag : public BagInterface<ItemType>{
 
 };
 
-
-
-
-
 #include "ArrayBag.cpp"
 #endif
